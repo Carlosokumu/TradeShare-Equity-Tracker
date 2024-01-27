@@ -2,14 +2,16 @@
   "name": "metaapi-equity-tracker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "metaapi.cloud-sdk": "^27.0.3"
+    "metaapi.cloud-sdk": "^27.0.3",
+    "nodemon": "^3.0.3"
   }
 }
